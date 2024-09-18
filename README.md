@@ -1,5 +1,5 @@
 # Precision-In-Motion---Technovation
-# 🚗 **Automatic Speed Limitation System** 🚦
+# 🚗 # Traffic Sign Recognition with Advanced CNN and Occlusion Handling 🚦
 
 ### *Revolutionizing Road Safety with AI & Machine Learning*
 
@@ -7,7 +7,6 @@
 [![Made with Machine Learning](https://img.shields.io/badge/Machine%20Learning%20with-Python%20%26%20TensorFlow-green)](https://www.tensorflow.org/)
 
 ---
-# Traffic Sign Recognition with Advanced CNN and Occlusion Handling
 
 ## 🚀 Overview
 
