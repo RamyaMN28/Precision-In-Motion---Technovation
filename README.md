@@ -17,19 +17,14 @@ In a world where road accidents are a growing concern, the **Automatic Speed Lim
 
 ## 🚀 **Features**
 
-- **🔍 Pedestrian & Cyclist Detection**  
-  Utilizes computer vision and machine learning to identify pedestrians and cyclists in real-time, adjusting vehicle behavior to enhance safety.
+- **🧠 Advanced CNN Models**
+  - **Designed and trained** three Convolutional Neural Network (CNN) models using a comprehensive dataset comprising **51,839 images** across **43 distinct classes**. These models are specifically tailored to enhance object detection capabilities under various weather conditions, ensuring robustness and reliability.
 
-- **⚡ Speed Limitation**  
-  Enforces speed limits (typically 15-25 mph in urban and school zones) to protect vulnerable road users and ensure safer travel in busy environments.
+- **🎯 High-Performance Model**
+  - The **third CNN model** was significantly enhanced with a higher number of filters and a deeper fully connected layer. This advanced architecture achieved an impressive **93% accuracy**, showcasing its superior performance in detecting and classifying objects.
 
-- **🔄 Reverse Detection**  
-  Detects obstacles while reversing and takes corrective actions, such as stopping or reducing speed, to prevent collisions.
-
-- **🧠 Precision in Motion (Aug. 2023 – Jan. 2024)**  
-  - Designed and trained **3 CNN models** using a dataset of **51,839 images** across **43 classes**, improving object detection in diverse weather conditions.
-  - The **third model**, with enhanced filter counts and a deeper fully connected layer, achieved **93% accuracy**.
-  - Enhanced **road safety** by accurately predicting highway signboards under various environmental factors, contributing to better navigation systems.
+- **🚦 Enhanced Road Safety**
+  - Leveraged the trained models to accurately predict and recognize highway signboards amidst varying environmental factors. This precision contributes to improved road safety by ensuring reliable navigation system performance, even in challenging conditions.
 
 ---
 
