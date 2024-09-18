@@ -39,7 +39,7 @@ This project focuses on traffic sign recognition using Convolutional Neural Netw
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/traffic-sign-recognition.git
+   git clone https: https://github.com/RamyaMN28/Precision-In-Motion---Technovation.git
 
 
 ## 📊 **Results**
