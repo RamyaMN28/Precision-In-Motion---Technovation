@@ -8,50 +8,49 @@
 [![Made with Machine Learning](https://img.shields.io/badge/Machine%20Learning%20with-Python%20%26%20TensorFlow-green)](https://www.tensorflow.org/)
 
 ---
+# Traffic Sign Recognition with Advanced CNN and Occlusion Handling
 
-## 🌟 **Project Overview**
+## 🚀 Overview
 
-In a world where road accidents are a growing concern, the **Automatic Speed Limitation System** presents a transformative solution. By integrating **real-time data processing**, **pedestrian detection**, and **traffic sign recognition**, this system dynamically adjusts vehicle speeds to enhance safety and minimize accident risks.
+This project focuses on traffic sign recognition using Convolutional Neural Networks (CNNs) with a twist—handling occluded images to ensure robust performance in real-world scenarios. By combining advanced CNN architectures with sophisticated preprocessing techniques, this project aims to achieve high accuracy in traffic sign classification, even when images are partially obscured.
 
----
+## 📊 Key Features
 
-## 🚀 **Features**
+- **Multiclass Classification**: Utilizes a CNN model for classifying traffic signs into 43 different classes.
+- **Data Augmentation**: Applies various augmentation techniques to improve model generalization and performance.
+- **Occlusion Handling**: Incorporates techniques to handle occluded images, making the model more resilient in challenging conditions.
+- **Model Variants**: Includes multiple CNN architectures, each optimized for accuracy and performance.
+- **Probabilistic Output**: Provides probabilistic predictions, enhancing the interpretability of the model's confidence.
 
-- **🧠 Advanced CNN Models**
-  - **Designed and trained** three Convolutional Neural Network (CNN) models using a comprehensive dataset comprising **51,839 images** across **43 distinct classes**. These models are specifically tailored to enhance object detection capabilities under various weather conditions, ensuring robustness and reliability.
+## 🧩 Project Structure
 
-- **🎯 High-Performance Model**
-  - The **third CNN model** was significantly enhanced with a higher number of filters and a deeper fully connected layer. This advanced architecture achieved an impressive **93% accuracy**, showcasing its superior performance in detecting and classifying objects.
+- **Data Preparation**: 
+  - Image preprocessing and augmentation.
+  - Handling occluded images with custom masks.
+  
+- **Model Architectures**:
+  - **Model 1**: Basic CNN with dropout and multiple convolutional layers.
+  - **Model 2**: Flexible CNN with adjustable parameters.
+  - **Model 3**: Advanced CNN with batch normalization and enhanced performance.
 
-- **🚦 Enhanced Road Safety**
-  - Leveraged the trained models to accurately predict and recognize highway signboards amidst varying environmental factors. This precision contributes to improved road safety by ensuring reliable navigation system performance, even in challenging conditions.
+- **Evaluation**:
+  - **Metrics**: Accuracy, confusion matrix, classification report.
+  - **Visualization**: ROC curve, probability distribution of predictions.
 
----
+## 🚀 Getting Started
 
-## 🛠 **Methodology**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/traffic-sign-recognition.git
 
-The system combines advanced technologies:
-- **Computer Vision**
-- **Machine Learning**
-- **Transportation Engineering**
-
-Leveraging datasets from Kaggle's Self-Driving Cars Dataset, the USA Traffic Light Dataset, and a custom dataset, the system processes data from vehicle cameras and sensors. Algorithms analyze this data in real-time to detect pedestrians, cyclists, objects in reverse, and traffic signs.
-
----
 
 ## 📊 **Results**
 
-- **Accurate Detection:** Significantly reduces accident risks by precisely identifying pedestrians, cyclists, and obstacles.
-- **Improved Traffic Flow:** Dynamically adjusts vehicle speed, enhancing traffic flow and reducing congestion.
+- **Model Accuracy**: Achieved an accuracy of 97.93% on the test dataset.
+- **Classification Report**: Detailed precision, recall, and F1-score metrics available in the results folder.
+- **Confusion Matrix**: Visualized for detailed performance analysis.
 
 ---
-
-## 🔮 **Conclusion**
-
-The **Automatic Speed Limitation System** is more than a technological advancement; it's a commitment to safer roads. By incorporating features like reverse detection and pedestrian awareness, it aims to create a future with fewer accidents and more secure journeys.
-
----
-
 ## 📝 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -60,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 **Contact**
 
-For any questions or suggestions, feel free to reach out!
+
 
 **Project Maintainer:** [Ramya M N](https://github.com/RamyaMN28)  
 
