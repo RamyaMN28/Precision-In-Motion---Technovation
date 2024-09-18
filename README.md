@@ -3,7 +3,6 @@
 
 ### *Revolutionizing Road Safety with AI & Machine Learning*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
 [![Made with Machine Learning](https://img.shields.io/badge/Machine%20Learning%20with-Python%20%26%20TensorFlow-green)](https://www.tensorflow.org/)
 
@@ -51,15 +50,6 @@ This project focuses on traffic sign recognition using Convolutional Neural Netw
 - **Confusion Matrix**: Visualized for detailed performance analysis.
 
 ---
-## 📝 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📬 **Contact**
-
-
 
 **Project Maintainer:** [Ramya M N](https://github.com/RamyaMN28)  
 
